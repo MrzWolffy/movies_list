@@ -27,7 +27,7 @@ class _SplashPageState extends State<SplashPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/logo.png', width: 100),
+            Image.network('https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png', width: 100),
             SizedBox(height: 20),
             Text(
               "CINEMA",
