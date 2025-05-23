@@ -51,7 +51,7 @@ class MovieListPage extends StatelessWidget {
               TextButton(
                 onPressed:
                     () => {
-                      movieController.clearSearch,
+                      movieController.clearSearch(),
                       searchController.clear(),
                     },
                 style: TextButton.styleFrom(
